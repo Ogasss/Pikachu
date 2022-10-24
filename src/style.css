@@ -17,8 +17,6 @@ body{
     margin-top: 5vh;
 }
 
-
-
     .eyeContainer{
         display: flex;
         position: relative;
@@ -224,3 +222,13 @@ body{
             left: 8.7vw;
             z-index: 3;
         }
+
+@media (max-width: 600px){
+    .container{
+        height: 75vh;
+        width: 100vw;
+
+        position: relative;
+        margin-top: 25vh;
+    }
+}
